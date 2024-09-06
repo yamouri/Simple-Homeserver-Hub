@@ -2,6 +2,8 @@
 
 simple-homeserver-hub, a simple VueJS-based web application designed to serve as a central hub for managing your homeserver applications.
 
+![alt text](https://ibb.co/NxvNxRQ)
+
 ## Overview
 
 It provides a user-friendly interface to easily navigate and access various applications on your homeserver. It displays a grid of application cards, each featuring an image and a title. That's all!
