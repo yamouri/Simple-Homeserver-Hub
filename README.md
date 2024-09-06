@@ -2,7 +2,7 @@
 
 simple-homeserver-hub, a simple VueJS-based web application designed to serve as a central hub for managing your homeserver applications.
 
-![Alt text](https://i.ibb.co/LSFgSKb/screenshot.png)
+https://i.ibb.co/LSFgSKb/screenshot.png
 
 ## Overview
 
