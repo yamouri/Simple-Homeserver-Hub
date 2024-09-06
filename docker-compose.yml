@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./index.html:/usr/local/apache2/htdocs/index.html
+      - ./robots.txt:/usr/local/apache2/htdocs/robots.txt
+      - ./apps.json:/usr/local/apache2/htdocs/apps.json
+      - ./img:/usr/local/apache2/htdocs/img
