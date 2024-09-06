@@ -1,0 +1,4 @@
+[
+    { "title": "My Website 1", "link": "https://fedoraproject.org", "image": "img/image1.jpg" },
+    { "title": "My second title", "link": "https://archlinux.org/", "image": "img/image2.jpg" }
+]
