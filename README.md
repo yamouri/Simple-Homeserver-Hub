@@ -45,21 +45,22 @@ To get started with it, follow these steps:
      }
    ]
    ```
+
    3. **Deploy in your server:**
 
    Follow the installation of Apache, Nginx, NodeJs or any solution. The project was tested only on Apache.
    Drag and drop your files in your server and it's ready.
    
-## Docker Installation
-
-To simplify the deployment of your application, you can use Docker:
-
-Install with
-```bash
-docker-compose up
- ```
-
-Check if your container is running
-```bash
-docker ps
- ```
+   ## Docker Installation
+   
+   To simplify the deployment of your application, you can use Docker:
+   
+   Install with
+   ```bash
+   docker-compose up
+    ```
+   
+   Check if your container is running
+   ```bash
+   docker ps
+    ```
