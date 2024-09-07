@@ -11,7 +11,6 @@ It provides a user-friendly interface to easily navigate and access various appl
 ## Features
 
 - **Dynamic Content:** Fetches application data from a JSON file, to quickly add an app without extra work.
-- **VueJS Integration:** Built using VueJS
 - **TailwindCSS Styling:** Utilizes TailwindCSS for styling.
 
 ## Installation
@@ -45,3 +44,22 @@ To get started with it, follow these steps:
        "image": "img/image2.jpg"
      }
    ]
+   ```
+   3. **Deploy in your server:**
+
+   Follow the installation of Apache, Nginx, NodeJs or any solution. The project was tested only on Apache.
+   Drag and drop your files in your server and it's ready.
+   
+## Docker Installation
+
+To simplify the deployment of your application, you can use Docker:
+
+Install with
+```bash
+docker-compose up
+ ```
+
+Check if your container is running
+```bash
+docker ps
+ ```
