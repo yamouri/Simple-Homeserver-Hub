@@ -2,7 +2,7 @@
 
 simple-homeserver-hub, a simple VueJS and TailwindCSS application designed to serve as a central hub for managing your homeserver applications.
 
-![screenshot](https://github.com/user-attachments/assets/0747add0-628b-4552-a6d0-a34435571b4a)
+![test](https://github.com/user-attachments/assets/7339416e-2edb-44a5-b633-9302a1469ead)
 
 ## Overview
 
