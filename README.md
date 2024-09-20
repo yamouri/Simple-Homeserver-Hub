@@ -46,7 +46,7 @@ To get started with it, follow these steps:
    ]
    ```
 
-   3. **Deploy in your server:**
+3. **Deploy in your server:**
 
    Follow the installation of Apache, Nginx, NodeJs or any solution. The project was tested only on Apache.
    Drag and drop your files in your server and it's ready.
