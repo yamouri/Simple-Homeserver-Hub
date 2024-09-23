@@ -57,7 +57,7 @@ To get started with it, follow these steps:
    
    Install with
    ```bash
-   docker-compose up
+   docker-compose up -d
     ```
    
    Check if your container is running
