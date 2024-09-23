@@ -27,7 +27,7 @@ To get started with it, follow these steps:
 
    - **`title`:** The name of the application as it will appear on the hub.
    - **`link`:** The URL that the application card will link to when clicked.
-   - **`image`:** The path to the image file that will be displayed on the card.
+   - **`image`:** The path to the image file that will be displayed on the card. Try to stay on a 1:1 ratio.
 
    Here's an example of how to format each entry in `apps.json`:
 
