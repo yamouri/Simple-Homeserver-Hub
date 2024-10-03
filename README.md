@@ -7,11 +7,7 @@ simple-homeserver-hub, a simple VueJS and TailwindCSS application designed to se
 ## Overview
 
 It provides a user-friendly interface to easily navigate and access various applications on your homeserver. It displays a grid of application cards, each featuring an image and a title. That's all!
-
-## Features
-
-- **Dynamic Content:** Fetches application data from a JSON file, to quickly add an app without extra work.
-- **TailwindCSS Styling:** Utilizes TailwindCSS for styling.
+Everything can be modify using a json file.
 
 ## Installation
 
