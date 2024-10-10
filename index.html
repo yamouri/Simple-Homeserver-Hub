@@ -16,23 +16,12 @@
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <style>
-        .glow-orange {
-            box-shadow: 0 4px 8px rgba(255, 165, 0, 0.5), 0 0 15px rgba(255, 165, 0, 0.3);
-        }
-        .zoom-effect {
-            transition: transform 0.3s ease;
-        }
-        .zoom-effect:hover {
-            transform: scale(1.05);
-        }
-    </style>
 </head>
 
 <body class="bg-blue-950 text-white font-sans antialiased">
     <div id="app" class="container mx-auto py-8 px-4 lg:px-8">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            <div v-for="app in apps" :key="app.title" class="relative bg-gray-800 rounded-lg overflow-hidden group zoom-effect">
+            <div v-for="app in apps" :key="app.title" class="relative bg-gray-800 rounded-lg overflow-hidden group transition-transform duration-300 hover:scale-105">
                 <a :href="app.link" class="block relative z-10">
                     <div class="aspect-w-16 aspect-h-9">
                         <img :src="app.image" alt="" class="object-cover w-full h-full transition-transform duration-300" />
